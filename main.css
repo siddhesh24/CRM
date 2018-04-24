@@ -1,0 +1,198 @@
+
+			div.mainContainer{
+				width: 1000px;
+				height: auto;
+				margin: 0 auto;
+				margin-top: 50px;
+			}
+			h1{
+				margin: 0;
+				padding: 0;
+				font-size: 26px;
+				text-transform: uppercase;
+				margin-bottom: 40px;
+			}
+			div.categories{
+				width: 100%;
+				height: auto;
+				margin: 0 auto;
+				padding-bottom: 20px;
+				border-bottom: 1px solid #E6E6E6;
+				overflow: auto;
+				margin-bottom: 40px;
+			}
+			div.category{
+				width: 176px;
+				height: 207px;
+				background-color: #FAFAFA;
+				border: 1px solid #E6E6E6;
+				box-sizing: border-box;
+				padding: 17px;
+				float: left;
+				margin-left: 12px;
+				margin-right: 12px;
+				margin-bottom: 24px;
+			}
+			div.catThumb{
+				width: 140px;
+				height: 117px;
+				text-align: center;
+			}
+			div.catThumb img{
+				height: 100%;
+				cursor: pointer;
+			}
+			div.catText{
+				width: 100%;
+				text-align: center;
+				font-size: 17px;
+				font-family: "Dosis","HelveticaNeue","Helvetica Neue",sans-serif;
+				color: #585858;
+				margin-top: 20px;
+				text-align: center;
+				font-weight: bold;
+				cursor: pointer;
+			}
+			div.productsContainer{
+				width: 100%;
+				height: auto;
+				overflow: auto;
+				padding-bottom: 20px;
+				margin: 0 auto;
+				margin-bottom: 40px;
+			}
+			div.product{
+				width: 176px;
+				height: 357px;
+				box-sizing: border-box;
+				padding: 8px;
+				float: left;
+				margin-bottom: 24px;
+				float: left;
+				margin-left: 12px;
+				margin-right: 12px;
+			}
+			div.productThumb{
+				width: 160px;
+				height: 160px;
+				box-sizing: border-box;
+				margin-bottom: 10px;
+				cursor: pointer;
+			}
+			div.productThumb img{
+				width: 100%;
+				height: 100%;
+			}
+			div.productName{
+				width: 100%;
+				height: 34px;
+				font-size: 14px;
+				color: #585858;
+				margin-bottom: 10px;
+				cursor: pointer;
+				box-sizing: border-box;
+			}
+			span.originalPrice{
+				width: 100%;
+				height: 15px;
+				font-size: 12px;
+				margin-bottom: 5px;
+				box-sizing: border-box;
+				color: #B12704;
+				text-decoration: line-through;
+			}
+			div.productPrice{
+				width: 100%;
+				height: 25px;
+				font-size: 20px;
+				font-family: Arial, Helvetica, sans-serif;
+				color: #000000;
+				font-weight: bold;
+				box-sizing: border-box;
+			}
+			div.save{
+				width: 100%;
+				height: 15px;
+				margin-top: 5px;
+				font-size: 12px;
+				box-sizing: border-box;
+				color: #B12704;
+			}
+			span.saveText{
+				color: #585858;
+			}
+			div.productStars{
+				width: 100%;
+				height: 25px;
+				color: #E5C649;
+				font-size: 18px;
+				overflow: auto;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				box-sizing: border-box;
+			}
+			div.productReviews{
+				width: 100%;
+				height: 15px;
+				color: #585858;
+				font-size: 12px;
+				box-sizing: border-box;
+			}
+			span.all{
+				font-size: 14px;
+				float: right;
+				color: #204A80;
+				font-weight: normal;
+				text-transform: capitalize;
+				cursor: pointer;
+			}
+			span.all:hover{
+				text-decoration: underline;
+			}
+			@media only screen and (max-width: 1060px)
+			{
+				div.mainContainer{
+					width: calc(100% - 60px);
+				}
+				div.categories{
+					width: 800px;
+				}
+				div.productsContainer{
+					width: 800px;
+					margin-top: 40px;
+				}
+			}
+			@media only screen and (max-width: 860px)
+			{
+				div.categories{
+					width: 600px;
+				}
+				div.productsContainer{
+					width: 600px;
+				}
+			}
+			@media only screen and (max-width: 660px)
+			{
+				div.categories{
+					width: 400px;
+				}
+				div.productsContainer{
+					width: 400px;
+				}
+			}
+			@media only screen and (max-width: 460px)
+			{
+				div.categories{
+					width: 200px;
+				}
+				div.productsContainer{
+					width: 200px;
+				}
+			}
+		   
+			div.headerWrapper {
+position:fixed;
+width:100%;
+top:0;
+height: whatever 
+}
